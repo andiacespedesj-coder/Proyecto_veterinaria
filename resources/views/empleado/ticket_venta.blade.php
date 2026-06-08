@@ -14,8 +14,7 @@
 
     <div class="ticket-container">
         <div class="ticket-header">
-            <div class="ticket-title">VETERINARIA DEMO</div>
-            <div class="ticket-subtitle">Proyecto_Veterinaria2</div>
+            <div class="ticket-title">VETERINARIA "PORVENIR"</div>
             <div class="ticket-subtitle">Santa Cruz - Bolivia</div>
         </div>
 
