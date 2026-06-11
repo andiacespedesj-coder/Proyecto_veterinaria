@@ -95,7 +95,7 @@
                     @csrf
                     <div class="form-group">
                         <label for="ci">Cédula de Identidad (CI) *</label>
-                        <input type="text" name="ci" id="ci" class="form-control" required placeholder="Ej: 12345678">
+                        <input type="text" name="ci" id="ci" class="form-control" required >
                     </div>
 
                     <div class="form-group">
@@ -116,12 +116,12 @@
 
                     <div class="form-group">
                         <label for="telefono">Teléfono</label>
-                        <input type="text" name="telefono" id="telefono" class="form-control" placeholder="Ej: 78563214">
+                        <input type="text" name="telefono" id="telefono" class="form-control" >
                     </div>
 
                     <div class="form-group">
                         <label for="direccion">Dirección</label>
-                        <input type="text" name="direccion" id="direccion" class="form-control" placeholder="Ej: B/ Urkupiña">
+                        <input type="text" name="direccion" id="direccion" class="form-control" >
                     </div>
 
                     <button type="submit" class="btn btn-primary" style="width:100%;">Registrar Cliente</button>
@@ -145,17 +145,17 @@
 
                     <div class="form-group">
                         <label for="nombre_mascota">Nombre de la Mascota *</label>
-                        <input type="text" name="nombre" id="nombre_mascota" class="form-control" required placeholder="Ej: Firulais">
+                        <input type="text" name="nombre" id="nombre_mascota" class="form-control" required >
                     </div>
 
                     <div class="flex-row">
                         <div class="form-group">
                             <label for="especie">Especie</label>
-                            <input type="text" name="especie" id="especie" class="form-control" placeholder="Ej:Canino">
+                            <input type="text" name="especie" id="especie" class="form-control" >
                         </div>
                         <div class="form-group">
                             <label for="raza">Raza</label>
-                            <input type="text" name="raza" id="raza" class="form-control" placeholder="Ej:Criollo">
+                            <input type="text" name="raza" id="raza" class="form-control" >
                         </div>
                     </div>
 

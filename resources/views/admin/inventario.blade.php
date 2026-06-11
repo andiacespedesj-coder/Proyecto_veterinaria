@@ -17,6 +17,7 @@
                             <th>Descripción</th>
                             <th>Stock por Almacén</th>
                             <th>Stock Total</th>
+                            <th>Acciones</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -69,7 +70,7 @@
                     @csrf
                     <div class="form-group">
                         <label for="nombre">Nombre del Producto *</label>
-                        <input type="text" name="nombre" id="nombre" class="form-control" required placeholder="Ej: Jabón Antipulgas 100g">
+                        <input type="text" name="nombre" id="nombre" class="form-control">
                     </div>
                     
                     <div class="form-group">
@@ -93,7 +94,7 @@
 
             <!-- Ingrese/Modificar Stock -->
             <div class="card">
-                <div class="card-title">Mapear / Cargar Stock</div>
+                <div class="card-title">Actualizar Stock</div>
                 <form action="{{ route('admin.stock.update') }}" method="POST">
                     @csrf
                     <div class="form-group">
@@ -118,7 +119,7 @@
 
                     <div class="form-group">
                         <label for="stock">Cantidad en Stock *</label>
-                        <input type="number" name="stock" id="stock" class="form-control" required min="0" placeholder="Ej: 100">
+                        <input type="text" name="stock" id="stock" class="form-control" required min="0">
                     </div>
 
                     <button type="submit" class="btn btn-secondary" style="width:100%; border-color:var(--accent); color:var(--accent); font-weight:700;">
